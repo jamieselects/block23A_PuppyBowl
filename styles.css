@@ -3,3 +3,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+img {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+.player-card {
+  margin: 10px;
+  border: 5px solid #ccc;
+  padding: 5px;
+  background-color: bisque;
+}
+
+form {
+  margin: 10px;
+  border: 5px solid gray;
+  padding: 5px;
+  background-color: rgb(231, 208, 145);
+}
+
+button {
+  padding: 3px;
+}
+
+p {
+  padding: 2px;
+}
+
+label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .player-card {
+      flex-direction: column;
+  }
+}
